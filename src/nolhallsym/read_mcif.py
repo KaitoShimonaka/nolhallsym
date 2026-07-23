@@ -238,7 +238,7 @@ import argparse
 def main():
     """ターミナルから呼ばれる際の入り口となる関数"""
     # ターミナルでの入力（引数）を受け取る設定
-    parser = argparse.ArgumentParser(description="mcifファイルからテンソル形状のPDFを生成します")
+    parser = argparse.ArgumentParser(description="mcifファイルからテンソル形状のPNGを生成します")
     
     # 必須の引数として「ファイルパス」を指定させる
     parser.add_argument("filepath", help="読み込む .mcif ファイルのパス")

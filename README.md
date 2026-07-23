@@ -33,13 +33,13 @@ Bash
 nolhallsym CuMnAs.mcif
 ```
 
-コマンドを実行すると、現在のディレクトリに解析結果がPDF形式で生成されます（例: `mcif_tensor_CuMnAs.pdf`）。
+コマンドを実行すると、現在のディレクトリに解析結果がPNG形式で生成されます（例: `mcif_tensor_CuMnAs.png`）。
 
 ## 出力例
 
-解析が完了すると、各項のテンソル形状を示すPDFが出力されます。
+解析が完了すると、各項のテンソル形状を示すPNGが出力されます。
 
-![sample_0002](src/nolhallsym/assets/demo/mcif_tensor_CuMnAs.pdf)
+![sample_0002](src/nolhallsym/assets/demo/mcif_tensor_CuMnAs.png)
 
 ## 参考文献
 
