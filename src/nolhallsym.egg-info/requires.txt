@@ -1,4 +1,0 @@
-sympy>=1.14
-spglib>=2.7.0
-matplotlib>=3.10.7
-PyYAML>=6.0.2
