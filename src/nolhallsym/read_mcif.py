@@ -232,3 +232,28 @@ def analyze_mcif(file_path: str) -> McifAnalysisResult:
     except Exception as e:
         print(f"File reading error: {file_path} - {e}")
         return McifAnalysisResult(bns_number=None, formula=None, has_ON_halogen=False)
+
+import argparse
+
+def main():
+    """ターミナルから呼ばれる際の入り口となる関数"""
+    # ターミナルでの入力（引数）を受け取る設定
+    parser = argparse.ArgumentParser(description="mcifファイルからテンソル形状のPDFを生成します")
+    
+    # 必須の引数として「ファイルパス」を指定させる
+    parser.add_argument("filepath", help="読み込む .mcif ファイルのパス")
+    
+    # 受け取った引数を解析
+    args = parser.parse_args()
+    
+    print(f"解析を開始します: {args.filepath}")
+    
+    try:
+        # メインの処理（PDF生成）を実行
+        make_tensor_mcif(args.filepath)
+        print("✅ PDFの生成が完了しました！")
+    except Exception as e:
+        print(f"❌ エラーが発生しました: {e}")
+
+if __name__ == "__main__":
+    main()
