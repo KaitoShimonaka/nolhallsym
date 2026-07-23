@@ -2,14 +2,14 @@
 
 `nolhallsym` は、磁気CIFファイル（.mcif）を入力として、Drude項、BCD項、interband QMD項、およびintraband QMD項のテンソル形状を解析・可視化するためのツールです。
 
-本プログラムにおける磁気対称性の取り扱いは、以下の論文の理論を参考にしています。
+本プログラムにおける対称性の取り扱いは、以下の論文を参考にしています。
 
 > Y. Ulrich et al., *Phys. Rev. B* **113**, L201107 (2026).
 
 ## インストール
 
 本ライブラリは以下のコマンドでインストール可能です。
-※Gitがインストールされている環境で実行してください。
+尚、Gitがインストールされている環境で実行してください。
 
 ```bash
 pip install --upgrade git+https://github.com/KaitoShimonaka/nolhallsym.git
@@ -43,11 +43,11 @@ nolhallsym CuMnAs.mcif
 
 ## 参考文献
 
-本ツールの実装にあたっては、以下の研究を参考にしています。
+本ツールの実装にあたっては、以下を参考にしています。
 
 - Y. Ulrich, et al., "..." *Phys. Rev. B* **113**, L201107 (2026).
 - B. J. Campbell et al., *Acta Cryst. A* **78**, 99–106 (2022). 
 
 ## ライセンス
 
-本プロジェクトは MIT ライセンスの下で公開されています。詳細は [LICENSE](https://www.google.com/search?q=LICENSE) ファイルをご確認ください。
+MIT ライセンス
