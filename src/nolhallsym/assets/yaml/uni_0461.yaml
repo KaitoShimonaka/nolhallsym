@@ -1,0 +1,18 @@
+uni_number: 461
+components:
+  NLD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  BCD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTER_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTRA_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []

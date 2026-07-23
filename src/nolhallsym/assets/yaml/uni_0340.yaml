@@ -1,0 +1,56 @@
+uni_number: 340
+components:
+  NLD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  BCD:
+    free_degree: 2
+    basis_vectors:
+    - - '0'
+      - '0'
+      - -1/2
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    - - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - -1/2
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+    constraints:
+    - xxz = -2*zxx
+    - yyz = -2*zyy
+  INTER_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTRA_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []

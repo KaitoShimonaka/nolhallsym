@@ -1,0 +1,37 @@
+uni_number: 812
+components:
+  NLD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  BCD:
+    free_degree: 1
+    basis_vectors:
+    - - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    constraints:
+    - xyz = -yxz
+  INTER_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTRA_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []

@@ -1,0 +1,94 @@
+uni_number: 1363
+components:
+  NLD:
+    free_degree: 2
+    basis_vectors:
+    - - '-1'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    - - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    constraints:
+    - xxx = -xyy = -yxy
+    - xxy = yxx = -yyy
+  BCD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTER_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTRA_QMD:
+    free_degree: 2
+    basis_vectors:
+    - - '-1'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    - - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    constraints:
+    - xxx = -xyy = -yxy
+    - xxy = yxx = -yyy

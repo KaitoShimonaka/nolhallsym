@@ -1,0 +1,56 @@
+uni_number: 1461
+components:
+  NLD:
+    free_degree: 1
+    basis_vectors:
+    - - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    constraints:
+    - xxy = yxx = -yyy
+  BCD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTER_QMD:
+    free_degree: 0
+    basis_vectors: []
+    constraints: []
+  INTRA_QMD:
+    free_degree: 1
+    basis_vectors:
+    - - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '-1'
+      - '0'
+      - '0'
+      - '1'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+    constraints:
+    - xxy = yxx = -yyy

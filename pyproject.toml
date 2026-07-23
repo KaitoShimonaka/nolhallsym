@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nolhallsymte"
+version = "0.1.0"
+description = "Calculate Nonlinear Hall effect tenosr"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "sympy>=1.14",
+    "spglib>=2.7.0",
+    "matplotlib>=3.10.7",
+    "PyYAML>=6.0.2"
+]
+
+[tool.setuptools.package-data]
+"nolhallsym" = ["assets/yaml/*.yaml", "assets/table_for_MSG_MPG.txt"]
