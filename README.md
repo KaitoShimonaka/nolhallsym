@@ -12,7 +12,7 @@
 ※Gitがインストールされている環境で実行してください。
 
 ```bash
-pip install git+[https://github.com/xx/nolhallsym.git](https://github.com/xx/nolhallsym.git)
+pip install --upgrade git+[https://github.com/KaitoShimonaka/nolhallsym.git](https://github.com/KaitoShimonaka/nolhallsym.git)
 ```
 
 ## 使い方
