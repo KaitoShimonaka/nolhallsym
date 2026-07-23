@@ -22,7 +22,7 @@ pip install --upgrade git+https://github.com/KaitoShimonaka/nolhallsym.git
 Bash
 
 ```
-nolhallsym <対象の.mcifファイル>
+nolhallsym <対象の.mcifファイルのpath>
 ```
 
 **実行例:**
@@ -46,7 +46,7 @@ nolhallsym CuMnAs.mcif
 本ツールの実装にあたっては、以下の研究を参考にしています。
 
 - Y. Ulrich, et al., "..." *Phys. Rev. B* **113**, L201107 (2026).
-- 
+- B. J. Campbell et al., *Acta Cryst. A* **78**, 99–106 (2022). 
 
 ## ライセンス
 
