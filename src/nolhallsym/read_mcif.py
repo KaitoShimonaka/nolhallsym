@@ -75,9 +75,9 @@ def make_tensor_mcif(
         ax.text(0.5, 0.5, table_tex, ha="center", va="center", fontsize=18)
 
     if output_dir:
-        plt.savefig(Path(output_dir) / f"mcif_tensor_{file_name}.pdf", dpi=300, bbox_inches="tight")
+        plt.savefig(Path(output_dir) / f"mcif_tensor_{file_name}.png", dpi=300, bbox_inches="tight")
     else:
-        plt.savefig(f"mcif_tensor_{file_name}.pdf", dpi=300, bbox_inches="tight")
+        plt.savefig(f"mcif_tensor_{file_name}.png", dpi=300, bbox_inches="tight")
 
 
 def _build_tensor_summary_table_tex(tensor: nlh) -> str:
@@ -249,9 +249,9 @@ def main():
     print(f"解析を開始します: {args.filepath}")
     
     try:
-        # メインの処理（PDF生成）を実行
+        # メインの処理（PNG生成）を実行
         make_tensor_mcif(args.filepath)
-        print("✅ PDFの生成が完了しました！")
+        print("✅ PNGの生成が完了しました！")
     except Exception as e:
         print(f"❌ エラーが発生しました: {e}")
 
