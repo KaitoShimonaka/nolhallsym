@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nolhallsymte"
+name = "nolhallsym"
 version = "0.1.0"
 description = "Calculate Nonlinear Hall effect tenosr"
 readme = "README.md"
